@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Is Your Birthday Lucky?</title>
+</head>
+
+<body>
+    <div class="model">
+        <div class="model-container">
+            <h2 class="model-heading">
+                NOTE..!
+            </h2><br><hr><br>
+            <p class="model-text">WE DO NOT STORE ANY DATA COLLECTED FROM THE USERS..</p><br><br>
+            <button class="model-btn">Close</button>
+        </div>
+    </div>
+    <div class="container">
+        <header class="header">
+            <h1 class="heading">Does your lucky number is still lucky..?</h1>
+        </header>
+        <main class="main">
+            <form class="form">
+                <div class="form-section">
+                    <label for="bday">Enter Your Birth Day:</label>
+                    <input type="date" id="bday" required placeholder="Birthday">
+                </div>
+                <div class="form-section">
+                    <label for="lucky-num">Your Lucky Number:</label>
+                    <input required type="number" id="lucky-num" min="1" max="99">
+                </div>
+                <button type="submit" class="btn">Check If You're Lucky</button>
+            </form>
+        </main>
+        <section>
+            <h1 class="result"></h1>
+            <!-- <img class="img" src="" alt="Happy or Sad"> -->
+            <p class="img" id="para"></p>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

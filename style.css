@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor: rgb(150, 235, 238);
+  --white: #fff;
+  --boxShadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.32);
+}
+body {
+  background-image: url(/assets/Led-Balloon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bgColor);
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+.header {
+  margin-top: 5rem;
+  border-radius: 5px;
+  font-family: cursive;
+  background-color: var(--white);
+  padding: 1.5rem 1rem;
+  box-shadow: var(--boxShadow);
+}
+.heading {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.main {
+  border-radius: 5px;
+  margin-top: 3rem;
+  background-color: var(--white);
+  padding: 2rem 0;
+  box-shadow: var(--boxShadow);
+}
+
+.form {
+  max-width: 360px;
+  margin: 0 auto;
+  text-align: center;
+}
+.form-section {
+  margin-bottom: 1rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem;
+}
+.btn {
+  margin: 15px 0px;
+  width: 60%;
+  background-color: var(--bgColor);
+  color: var(--white);
+  border: 1px solid black;
+  font: inherit;
+  padding: 1rem;
+  box-shadow: var(--boxShadow);
+  transition: all 0.3s;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.btn:hover {
+  background-color: var(--white);
+  border: 1px solid black;
+  color: var(--bgColor);
+}
+
+.lucky-section {
+  background-color: var(--white);
+  padding: 2rem 0;
+  box-shadow: var(--boxShadow);
+  margin: 1.5rem auto;
+  color: rgb(2, 255, 242);
+}
+
+.result {
+  font-family: Bebas Neue, cursive;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer {
+  background-color: var(--white);
+  margin: 1.5rem 0;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  box-shadow: var(--boxShadow);
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.list-item {
+  margin: 0 0.5rem;
+}
+
+.list-link {
+  text-decoration: none;
+  color: black;
+}
+
+small {
+  display: block;
+  text-align: center;
+  columns: #777;
+}
+
+.img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.model {
+  height: 100vh;
+  width: 100vw;
+  z-index: 999; 
+  position: absolute;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.model-container {
+  max-width: 600px;
+  min-height: 30vh;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  box-shadow: var(--boxShadow);
+}
+
+.model-btn {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: inherit;
+  color: var(--bgColor);
+  padding: 10px 20px;
+}
+.model-btn:hover {
+  background-color: var(--bgColor);
+  color: white;
+  font-size: large;
+  border-radius: 5px;
+}
+
+.model-text {
+  padding: 5px 5px;
+  text-align: left;
+}
